@@ -29,14 +29,15 @@ struct TextBootcamp: View {
 //                .italic()
 //        }
         
-        Text("Hello, World!, obs: ao definir  tamanho fixo de fonte ele nao seguira o") // obs: ao definir  tamanho fixo de fonte ele nao seguira o sistema
+        Text("Hello, World!" .uppercased()) // obs: ao definir  tamanho fixo de fonte ele nao seguira o sistema
           //  .font(.system(size: 24, weight: .semibold, design: .monospaced))
             //.baselineOffset(10.0)// espaçamento tentre linhas
            // .kerning(/*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/) // espaçamento entre letras
             .foregroundStyle(.red) // IOS 17
             //.foregroundColor(.yellow) deprecate ios antigos
-            .multilineTextAlignment(.center) // text aligment
-            .frame()
+            .multilineTextAlignment(.leading) // text aligment
+            .frame(width: 200, height: 100, alignment: .leading)
+            .minimumScaleFactor(0.1)
     }
 }
 
