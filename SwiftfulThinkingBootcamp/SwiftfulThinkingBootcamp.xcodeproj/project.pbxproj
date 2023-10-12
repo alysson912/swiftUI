@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		761E74722AD81738007B0179 /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E74712AD81738007B0179 /* TextBootcamp.swift */; };
 		761E74742AD8274E007B0179 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E74732AD8274E007B0179 /* ShapesBootcamp.swift */; };
+		761E74762AD82DE4007B0179 /* ColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761E74752AD82DE4007B0179 /* ColorsBootcamp.swift */; };
 		7666DA6A2AD5F69C005EE95C /* SwiftfulThinkingBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7666DA692AD5F69C005EE95C /* SwiftfulThinkingBootcampApp.swift */; };
 		7666DA6C2AD5F69C005EE95C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7666DA6B2AD5F69C005EE95C /* ContentView.swift */; };
 		7666DA6E2AD5F69C005EE95C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7666DA6D2AD5F69C005EE95C /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		761E74712AD81738007B0179 /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
 		761E74732AD8274E007B0179 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
+		761E74752AD82DE4007B0179 /* ColorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBootcamp.swift; sourceTree = "<group>"; };
 		7666DA662AD5F69C005EE95C /* SwiftfulThinkingBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7666DA692AD5F69C005EE95C /* SwiftfulThinkingBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingBootcampApp.swift; sourceTree = "<group>"; };
 		7666DA6B2AD5F69C005EE95C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				7666DA6D2AD5F69C005EE95C /* Assets.xcassets */,
 				7666DA6F2AD5F69C005EE95C /* Preview Content */,
 				761E74732AD8274E007B0179 /* ShapesBootcamp.swift */,
+				761E74752AD82DE4007B0179 /* ColorsBootcamp.swift */,
 			);
 			path = SwiftfulThinkingBootcamp;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				761E74762AD82DE4007B0179 /* ColorsBootcamp.swift in Sources */,
 				761E74742AD8274E007B0179 /* ShapesBootcamp.swift in Sources */,
 				7666DA6C2AD5F69C005EE95C /* ContentView.swift in Sources */,
 				761E74722AD81738007B0179 /* TextBootcamp.swift in Sources */,
