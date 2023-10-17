@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ImageBootcamp: View {
     var body: some View {
-        
+            
         Image("controle") // background transparente
             .renderingMode(.template) // habilitando alteracao de cor da imagem obs: antes do resizable
             .resizable() // habilitando proporcao
