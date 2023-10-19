@@ -15,7 +15,7 @@ struct ShapesBootcamp: View {
         //Rectangle()
         RoundedRectangle(cornerRadius: 10)
         
-           // .fill(Color.blue)
+            .fill(Color.blue)
             //.foregroundColor(.pink) // deprecate
             //.stroke()// borda da forma
            // .stroke(Color.blue, lineWidth:  20) // cor da linha
