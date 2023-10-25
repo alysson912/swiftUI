@@ -87,7 +87,7 @@ struct ScrollViewBootcamp: View {
         
         //MARK: Obs: o conteudo da pilha serao carregados assim que a tela for criada
         // bom em dados Mockados
-        // para lidar com conjunto de dados 
+        // para lidar com conjunto de dados
         // o correto é usa LazyVStack: cria so aquela linha ou item  necessario (economizando dados)
         
     }
