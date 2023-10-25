@@ -35,23 +35,29 @@ struct GridBootcamp: View {
                     
                     Section {
                         ForEach(0..<20){ index in
-                            Rectangle()
-                                .frame( height: 150)
+                            RoundedRectangle(cornerRadius: 10.0)
+                                .fill(Color.green)
+                                .frame(width: 100, height: 100)
+                                .shadow(radius: 10)
+                                .padding()
                         }
                     } header: {
                         Text("Section 1")
                             .font(.title)
                             .foregroundStyle(.white)
                             .frame(maxWidth: .infinity, alignment: .leading)
-                            .background(Color.blue)
+                            .background(Color.green)
+                            .shadow(radius: 10)
                             .padding()
                     }
                     
                     Section {
                         ForEach(0..<20){ index in
-                            Rectangle()
-                                .fill(Color.green)
-                                .frame(height: 150)
+                            RoundedRectangle(cornerRadius: 15.0)
+                                .fill(Color.pink)
+                                .frame(width: 100, height: 100)
+                                .shadow(radius: 10)
+                                .padding()
                         }
                     } header: {
                         Text("Section 2")
@@ -59,6 +65,7 @@ struct GridBootcamp: View {
                             .foregroundStyle(.white)
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .background(Color.red)
+                            .shadow(radius: 10)
                             .padding()
                     }
                     
