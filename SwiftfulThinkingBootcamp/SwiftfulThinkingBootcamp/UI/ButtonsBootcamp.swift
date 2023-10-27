@@ -48,7 +48,7 @@ struct ButtonsBootcamp: View {
                     .frame(width: 75, height: 75)
                     .shadow(radius: 10)
                     .overlay(
-                        Image(systemName: "heart.fill")
+                        Image(systemName: "heart")
                             .font(.largeTitle)
                             .foregroundStyle(Color.pink)
                     )
