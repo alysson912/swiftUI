@@ -23,6 +23,7 @@ struct ExtractedFunction: View {
     }
     
     var contentLayer: some View {
+    //MARK: Extract SubView utilizar quando NÃO ouver mudanca de estado de valores
         VStack {
             Text("Title")
                 .font(.largeTitle)
