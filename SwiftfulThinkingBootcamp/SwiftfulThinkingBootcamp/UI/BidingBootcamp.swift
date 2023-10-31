@@ -11,6 +11,7 @@ struct BidingBootcamp: View {
     
     @State var backgroundColor: Color = Color.yellow
     @State var title: String = "Titulo"
+    
     var body: some View {
         ZStack {
             backgroundColor.ignoresSafeArea(.all)
@@ -43,7 +44,7 @@ struct ButtonView: View {
         Button(action: {
             backgroundColor = Color.pink
             buttonColor = Color.cyan
-            title = "new Title" // definindo novo titulo sem a referencia da classe pai 
+            title = "new Title" // definindo novo titulo sem a referencia da classe pai
         }, label: {
             Text("Button")
                 .foregroundStyle(Color.white)
