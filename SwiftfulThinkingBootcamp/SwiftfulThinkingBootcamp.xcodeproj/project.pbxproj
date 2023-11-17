@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B02FE232B082991005F8702 /* PopOverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B02FE222B082991005F8702 /* PopOverBootcamp.swift */; };
 		4B08310D2B06C7A3006D58FF /* TransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B08310C2B06C7A3006D58FF /* TransitionBootcamp.swift */; };
 		4B08310F2B06D191006D58FF /* SheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B08310E2B06D191006D58FF /* SheetsBootcamp.swift */; };
 		4B28BF802AE07A3700BAEC22 /* StacksBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B28BF7F2AE07A3700BAEC22 /* StacksBootcamp.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B02FE222B082991005F8702 /* PopOverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverBootcamp.swift; sourceTree = "<group>"; };
 		4B08310C2B06C7A3006D58FF /* TransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBootcamp.swift; sourceTree = "<group>"; };
 		4B08310E2B06D191006D58FF /* SheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsBootcamp.swift; sourceTree = "<group>"; };
 		4B28BF7F2AE07A3700BAEC22 /* StacksBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootcamp.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				761E74712AD81738007B0179 /* TextBootcamp.swift */,
 				7666DA6B2AD5F69C005EE95C /* ContentView.swift */,
 				4B4F0E842ADF2D1300F5A0EC /* ImageBootcamp.swift */,
+				4B02FE222B082991005F8702 /* PopOverBootcamp.swift */,
 				4B08310E2B06D191006D58FF /* SheetsBootcamp.swift */,
 				4B6F79162AE89F6F00EA27CA /* ScrollViewBootcamp.swift */,
 				4B4F0E862ADF483C00F5A0EC /* FrameBootcamp.swift */,
@@ -254,6 +257,7 @@
 				761E74722AD81738007B0179 /* TextBootcamp.swift in Sources */,
 				7666DA6A2AD5F69C005EE95C /* SwiftfulThinkingBootcampApp.swift in Sources */,
 				4BE3ABDC2AF175520061B624 /* TernaryBootcamp.swift in Sources */,
+				4B02FE232B082991005F8702 /* PopOverBootcamp.swift in Sources */,
 				4B28BF802AE07A3700BAEC22 /* StacksBootcamp.swift in Sources */,
 				4B28BF842AE0B04900BAEC22 /* SpacerBootcamp.swift in Sources */,
 				4B6F79192AE9823600EA27CA /* GridBootcamp.swift in Sources */,
