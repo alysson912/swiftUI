@@ -36,7 +36,6 @@ struct ListBootcamp: View {
                             .foregroundStyle(Color.red)
                     }
                     .font(.headline)
-                    
                 }
                 
                 Section {
@@ -52,11 +51,9 @@ struct ListBootcamp: View {
             .navigationTitle("Home")
             .navigationBarItems(leading: EditButton(), trailing: addButton)
         }
-    //    .accentColor(.purple) //  deprecated
+        //    .accentColor(.purple) //  deprecated
         .tint(Gradient(colors: [.red, .orange, .yellow])) // new
-        
     }
-    
     
     var addButton: some View {
         Button("add", action: {
