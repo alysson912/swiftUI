@@ -10,6 +10,7 @@ import SwiftUI
 struct ContextMenuBootcamp: View {
     
     @State  var backgroundColor: Color = .white
+    @State  var backgroundColorMenu: Color = .blue
     
     var body: some View {
         ZStack {
@@ -22,24 +23,33 @@ struct ContextMenuBootcamp: View {
                     Text("Swift UI")
                         .font(.headline)
                 }
-              
+                
                 Text("How to use Context Menu")
                     .font(.subheadline)
             }
             .padding()
             .foregroundStyle(Color.white)
-            .background(Color.blue) .clipShape(RoundedRectangle(cornerRadius:10))
+            .background(backgroundColorMenu) .clipShape(RoundedRectangle(cornerRadius:10))
             .contextMenu(ContextMenu(menuItems: {
-                Button("Purple") {
-                    backgroundColor = .purple
-                }
-                Button("Cyan") {
+                Button(action: {
+                    backgroundColor = .red
+                    backgroundColorMenu = .green
+                }, label: {
+                    Label("Red", systemImage: "iphone.gen1")
+                })
+                Button(action: {
+                    backgroundColor = .pink
+                    backgroundColorMenu = .cyan
+                }, label: {
+                    Label("Pink", systemImage: "gamecontroller")
+                })
+                Button(action: {
                     backgroundColor = .cyan
-                }
-                Button("Yellow") {
-                    backgroundColor = .yellow
-                }
-        }))
+                    backgroundColorMenu = .yellow
+                }, label: {
+                    Label("Cyan", systemImage: "apple.logo")
+                })
+            }))
         }
         
     }
