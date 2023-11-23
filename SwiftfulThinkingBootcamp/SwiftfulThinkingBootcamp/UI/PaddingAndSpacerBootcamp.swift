@@ -22,7 +22,7 @@ struct PaddingAndSpacerBootcamp: View {
             
         }
         .padding()
-        .padding(.vertical, 10)
+        .padding(.vertical, 10) //MARK: CUSTOM PADDING
         .background(
             Color.white
                 .clipShape(RoundedRectangle(cornerRadius: 10))
