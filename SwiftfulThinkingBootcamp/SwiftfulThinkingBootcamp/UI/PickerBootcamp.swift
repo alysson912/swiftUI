@@ -30,7 +30,8 @@ struct PickerBootcamp: View {
                         }
                         //.background(Color.gray.opacity(0.3))
                         //.pickerStyle(WheelPickerStyle())
-                        .pickerStyle(.menu)
+                      //  .pickerStyle(.menu)
+                        
                     }
         
         
