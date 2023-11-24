@@ -12,42 +12,42 @@ struct TabViewBootcamp: View {
     let icons: [String] = ["heart.fill", "globe", "house.fill", "person.fill"]
     var body: some View {
         //MARK: EXAMPLE 01
-//        TabView(selection: $selectedTab){
-//            
-//            Screen01(selectTab: $selectedTab).tabItem {
-//                Image(systemName: "house.fill")
-//                Text("Home")
-//            }.tag(1)
-//            
-//            Screen02().tabItem {
-//                Image(systemName: "globe")
-//                Text("Browser")
-//            }.tag(2)
-//            
-//            Screen03().tabItem {
-//                Image(systemName: "person.fill")
-//                Text("Profile")
-//            }.tag(3)
-//        }
-//        .background(Color.yellow)
-//        .tint(Color.yellow)
+        TabView(selection: $selectedTab){
+            
+            Screen01(selectTab: $selectedTab).tabItem {
+                Image(systemName: "house.fill")
+                Text("Home")
+            }.tag(1)
+            
+            Screen02().tabItem {
+                Image(systemName: "globe")
+                Text("Browser")
+            }.tag(2)
+            
+            Screen03().tabItem {
+                Image(systemName: "person.fill")
+                Text("Profile")
+            }.tag(3)
+        }
+        .background(Color.yellow)
+        .tint(Color.yellow)
         
         //MARK: EXAMPLE 02
-        TabView {
-            ForEach(icons, id: \.self) { icon in
-                Image(systemName: icon)
-                    .resizable()
-                    .scaledToFit()
-                    .padding()
-            }
-        }
-        .background(
-        
-            RadialGradient(gradient: Gradient(colors: [Color.cyan, Color.purple, Color.red]), center: .center, startRadius: 5, endRadius: 300)
-        )
-        .frame(height: 300)
-        .tabViewStyle(PageTabViewStyle())
-        .padding(5)
+//        TabView {
+//            ForEach(icons, id: \.self) { icon in
+//                Image(systemName: icon)
+//                    .resizable()
+//                    .scaledToFit()
+//                    .padding()
+//            }
+//        }
+//        .background(
+//        
+//            RadialGradient(gradient: Gradient(colors: [Color.cyan, Color.purple, Color.red]), center: .center, startRadius: 5, endRadius: 300)
+//        )
+//        .frame(height: 300)
+//        .tabViewStyle(PageTabViewStyle())
+//        .padding(5)
         
     }
 }
