@@ -55,13 +55,13 @@ struct AlertBootcamp: View {
                     Button("Nope", role: .cancel, action: {})
                     Button("Destructive", role: .destructive, action: {})
                 }, message: {
-                    Text("Message")
+                    getAlert(text: "Message Text Test")
                 })
             }
         }
-        
-       
-        
+    }
+    func getAlert(text: String) -> AnyView {
+        return AnyView(Text(text))
     }
 }
 
