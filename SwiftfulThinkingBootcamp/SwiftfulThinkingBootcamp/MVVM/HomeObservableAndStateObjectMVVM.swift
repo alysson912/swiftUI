@@ -44,11 +44,11 @@ class FruitViewModel: ObservableObject {
     }
 }
 
-struct ViewModelBootcamp: View {
+struct HomeObservableAndStateObjectMVVM: View {
     //MARK: StateObject é igual = a ObservableObject, exceto pelo fato q ele nao reinderiza novamente quando a tela recarrega, ele se mantem, ou seja nao será atualizado, diferente do ObservableObject // Se por alguma razao a view atualizar o StateObject nao irá atualizar!
     //MARK: PARA QUEM ESTA INICIANDO, CRIA A VARIAVEL COM  @StateObject
     // @ObservedObject -> USE THIS FOR SUB VIEWS
-    @StateObject  private var viewModel = FruitViewModel() // assim q iniciar ele vai chamar o init com getFruits dentro 
+    @StateObject  private var viewModel = FruitViewModel() // assim q iniciar ele vai chamar o init com getFruits dentro
     
     
     
@@ -74,14 +74,44 @@ struct ViewModelBootcamp: View {
             }
             .listStyle(GroupedListStyle())
             .navigationTitle("Fruit List")
-       /*    .onAppear {
-                viewModel.getFruits()
-            } */
+            /*    .onAppear { viewModel.getFruits()} */
+            .toolbar {
+                ToolbarItemGroup(placement: .topBarTrailing) {
+                    HStack {
+                        NavigationLink {
+                            RandomScreen( viewModel: viewModel) // passando dados p/ frente
+                        } label: {
+                            Image(systemName: "arrow.right")
+                                .font(.title)
+                        }
+
+                       
+                    }
+                }
+            }
         }
     }
     
 }
 
+struct RandomScreen: View {
+    @Environment(\.dismiss) var dismiss
+    @ObservedObject var viewModel: FruitViewModel
+    
+    var body: some View {
+        ZStack {
+            Color.cyan.ignoresSafeArea()
+            
+            VStack {
+                ForEach(viewModel.fruitArray) { fruit in
+                    Text(fruit.name ?? "")
+                        .foregroundStyle(.white)
+                }
+            }
+        }
+    }
+}
+
 #Preview {
-    ViewModelBootcamp()
+    HomeObservableAndStateObjectMVVM()
 }
