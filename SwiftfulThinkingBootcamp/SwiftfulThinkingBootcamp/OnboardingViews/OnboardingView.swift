@@ -163,7 +163,7 @@ extension OnboardingView {
     private var addAgeSection: some View {
         VStack(spacing: 20) {
             Spacer()
-            Text("What's your name?")
+            Text("What's your age?")
                 .font(.largeTitle)
                 .fontWeight(.semibold)
                 .foregroundStyle(.white)
