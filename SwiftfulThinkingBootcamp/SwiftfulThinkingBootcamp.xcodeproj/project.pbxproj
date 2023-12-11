@@ -196,12 +196,12 @@
 				4BE0B9912B0FE406002737A4 /* DatePickerBootcamp.swift */,
 				4B1B58542B18F2D3002D0DDB /* EnvironmentObjectBootcamp.swift */,
 				4BE0B9872B0EBC96002737A4 /* TextFieldBootcamp.swift */,
+				4B4F0E842ADF2D1300F5A0EC /* ImageBootcamp.swift */,
 				4BE0B9932B101F5D002737A4 /* StepperBootcamp.swift */,
 				761E74712AD81738007B0179 /* TextBootcamp.swift */,
 				7666DA6B2AD5F69C005EE95C /* ContentView.swift */,
 				4BE0B9852B0EA211002737A4 /* ContextMenuBootcamp.swift */,
 				4BDA96ED2B14FDCD00A17662 /* IfLetGuardBootcamp.swift */,
-				4B4F0E842ADF2D1300F5A0EC /* ImageBootcamp.swift */,
 				4B63EB6B2B0BEAA000E210F7 /* ListBootcamp.swift */,
 				4BE0B98D2B0FBB64002737A4 /* PickerBootcamp.swift */,
 				4BE0B98B2B0FB690002737A4 /* ToggleBootcamp.swift */,
@@ -264,11 +264,11 @@
 		7666DA682AD5F69C005EE95C /* SwiftfulThinkingBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				7666DA692AD5F69C005EE95C /* SwiftfulThinkingBootcampApp.swift */,
+				4B1B585A2B192BD5002D0DDB /* OnboardingViews */,
 				4B4F0E832ADF2C1700F5A0EC /* UI */,
 				4BDA96F52B15374200A17662 /* MVVM */,
-				4B1B585A2B192BD5002D0DDB /* OnboardingViews */,
 				4B475D582B2788370093ECDC /* IOS 15 New Features */,
-				7666DA692AD5F69C005EE95C /* SwiftfulThinkingBootcampApp.swift */,
 				7666DA6D2AD5F69C005EE95C /* Assets.xcassets */,
 				7666DA6F2AD5F69C005EE95C /* Preview Content */,
 			);
