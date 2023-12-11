@@ -27,6 +27,7 @@
 		4B475D5E2B27AF510093ECDC /* TextSelectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B475D5D2B27AF510093ECDC /* TextSelectionBootcamp.swift */; };
 		4B475D602B27B0B80093ECDC /* ButtonStylesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B475D5F2B27B0B80093ECDC /* ButtonStylesBootcamp.swift */; };
 		4B475D622B27B6910093ECDC /* ListSwipeActionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B475D612B27B6910093ECDC /* ListSwipeActionsBootcamp.swift */; };
+		4B475D642B27BB3D0093ECDC /* BadgesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B475D632B27BB3D0093ECDC /* BadgesBootcamp.swift */; };
 		4B4F0E7E2ADF1B2200F5A0EC /* GradientsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4F0E7D2ADF1B2200F5A0EC /* GradientsBootcamp.swift */; };
 		4B4F0E822ADF26CB00F5A0EC /* IconsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4F0E812ADF26CB00F5A0EC /* IconsBootcamp.swift */; };
 		4B4F0E852ADF2D1300F5A0EC /* ImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4F0E842ADF2D1300F5A0EC /* ImageBootcamp.swift */; };
@@ -93,6 +94,7 @@
 		4B475D5D2B27AF510093ECDC /* TextSelectionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionBootcamp.swift; sourceTree = "<group>"; };
 		4B475D5F2B27B0B80093ECDC /* ButtonStylesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesBootcamp.swift; sourceTree = "<group>"; };
 		4B475D612B27B6910093ECDC /* ListSwipeActionsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActionsBootcamp.swift; sourceTree = "<group>"; };
+		4B475D632B27BB3D0093ECDC /* BadgesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesBootcamp.swift; sourceTree = "<group>"; };
 		4B4F0E7D2ADF1B2200F5A0EC /* GradientsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsBootcamp.swift; sourceTree = "<group>"; };
 		4B4F0E812ADF26CB00F5A0EC /* IconsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBootcamp.swift; sourceTree = "<group>"; };
 		4B4F0E842ADF2D1300F5A0EC /* ImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBootcamp.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				4B475D5D2B27AF510093ECDC /* TextSelectionBootcamp.swift */,
 				4B475D5F2B27B0B80093ECDC /* ButtonStylesBootcamp.swift */,
 				4B475D612B27B6910093ECDC /* ListSwipeActionsBootcamp.swift */,
+				4B475D632B27BB3D0093ECDC /* BadgesBootcamp.swift */,
 			);
 			path = "IOS 15 New Features";
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 				4B475D5C2B27917C0093ECDC /* BackGroundMaterialsBootcamp.swift in Sources */,
 				4BE0B9882B0EBC96002737A4 /* TextFieldBootcamp.swift in Sources */,
 				4BE0B98C2B0FB690002737A4 /* ToggleBootcamp.swift in Sources */,
+				4B475D642B27BB3D0093ECDC /* BadgesBootcamp.swift in Sources */,
 				4B1B585E2B192E13002D0DDB /* OnboardingView.swift in Sources */,
 				4B28BF802AE07A3700BAEC22 /* StacksBootcamp.swift in Sources */,
 				4B07AE442B125C4400AEED62 /* DocumentationBootcamp.swift in Sources */,
