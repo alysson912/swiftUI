@@ -54,6 +54,9 @@ struct AnimationUpdatedBootcamp: View {
         //MARK: Animação só será aplicada quando value mudar, ou se qualquer coisa na view mudar
         .animation(.spring(), value: animate1)
         .animation(.linear(duration: 5), value: animate2)
+        
+        //MARK: DEPRECATED
+        //.animation(.spring())
     }
 }
 
