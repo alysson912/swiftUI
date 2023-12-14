@@ -50,6 +50,7 @@
 		4BB99FEC2B290A3400B8BCBB /* SafeAreaInsetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB99FEB2B290A3400B8BCBB /* SafeAreaInsetBootcamp.swift */; };
 		4BB99FEE2B29105400B8BCBB /* GroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB99FED2B29105400B8BCBB /* GroupBootcamp.swift */; };
 		4BB99FF02B29119A00B8BCBB /* AnimationUpdatedBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB99FEF2B29119A00B8BCBB /* AnimationUpdatedBootcamp.swift */; };
+		4BCE44652B2BA064001FDC95 /* MenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE44642B2BA064001FDC95 /* MenuBootcamp.swift */; };
 		4BCE6C992B0D49890072AC57 /* AlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE6C982B0D49890072AC57 /* AlertBootcamp.swift */; };
 		4BDA96EC2B14F5B600A17662 /* OnAppearBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA96EB2B14F5B600A17662 /* OnAppearBootcamp.swift */; };
 		4BDA96EE2B14FDCD00A17662 /* IfLetGuardBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA96ED2B14FDCD00A17662 /* IfLetGuardBootcamp.swift */; };
@@ -124,6 +125,7 @@
 		4BB99FEB2B290A3400B8BCBB /* SafeAreaInsetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInsetBootcamp.swift; sourceTree = "<group>"; };
 		4BB99FED2B29105400B8BCBB /* GroupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBootcamp.swift; sourceTree = "<group>"; };
 		4BB99FEF2B29119A00B8BCBB /* AnimationUpdatedBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUpdatedBootcamp.swift; sourceTree = "<group>"; };
+		4BCE44642B2BA064001FDC95 /* MenuBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBootcamp.swift; sourceTree = "<group>"; };
 		4BCE6C982B0D49890072AC57 /* AlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootcamp.swift; sourceTree = "<group>"; };
 		4BDA96EB2B14F5B600A17662 /* OnAppearBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBootcamp.swift; sourceTree = "<group>"; };
 		4BDA96ED2B14FDCD00A17662 /* IfLetGuardBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuardBootcamp.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				4BB99FE92B2902D000B8BCBB /* ResizableSheetBootcamp.swift */,
 				4BB99FEB2B290A3400B8BCBB /* SafeAreaInsetBootcamp.swift */,
 				4BB99FEF2B29119A00B8BCBB /* AnimationUpdatedBootcamp.swift */,
+				4BCE44642B2BA064001FDC95 /* MenuBootcamp.swift */,
 			);
 			path = "Features IOS 16+";
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 				4B4F0E822ADF26CB00F5A0EC /* IconsBootcamp.swift in Sources */,
 				4B1B58552B18F2D3002D0DDB /* EnvironmentObjectBootcamp.swift in Sources */,
 				4B475D622B27B6910093ECDC /* ListSwipeActionsBootcamp.swift in Sources */,
+				4BCE44652B2BA064001FDC95 /* MenuBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
