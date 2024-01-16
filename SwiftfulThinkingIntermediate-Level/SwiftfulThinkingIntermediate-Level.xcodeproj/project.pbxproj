@@ -12,6 +12,7 @@
 		4BAB421F2B572AC60082A3F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BAB421E2B572AC60082A3F1 /* Preview Assets.xcassets */; };
 		4BAB42262B572D640082A3F1 /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAB42252B572D640082A3F1 /* LongPressGestureBootcamp.swift */; };
 		4BAB42292B5737320082A3F1 /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAB42282B5737320082A3F1 /* MagnificationGestureBootcamp.swift */; };
+		4BAB422B2B573E560082A3F1 /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAB422A2B573E560082A3F1 /* RotationGestureBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		4BAB421E2B572AC60082A3F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4BAB42252B572D640082A3F1 /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
 		4BAB42282B5737320082A3F1 /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
+		4BAB422A2B573E560082A3F1 /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				4BAB42252B572D640082A3F1 /* LongPressGestureBootcamp.swift */,
 				4BAB42282B5737320082A3F1 /* MagnificationGestureBootcamp.swift */,
+				4BAB422A2B573E560082A3F1 /* RotationGestureBootcamp.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BAB422B2B573E560082A3F1 /* RotationGestureBootcamp.swift in Sources */,
 				4BAB42292B5737320082A3F1 /* MagnificationGestureBootcamp.swift in Sources */,
 				4BAB42182B572AC50082A3F1 /* SwiftfulThinkingIntermediate_LevelApp.swift in Sources */,
 				4BAB42262B572D640082A3F1 /* LongPressGestureBootcamp.swift in Sources */,
