@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		4BAB42182B572AC50082A3F1 /* SwiftfulThinkingIntermediate_LevelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAB42172B572AC50082A3F1 /* SwiftfulThinkingIntermediate_LevelApp.swift */; };
-		4BAB421A2B572AC50082A3F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAB42192B572AC50082A3F1 /* ContentView.swift */; };
 		4BAB421C2B572AC60082A3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BAB421B2B572AC60082A3F1 /* Assets.xcassets */; };
 		4BAB421F2B572AC60082A3F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BAB421E2B572AC60082A3F1 /* Preview Assets.xcassets */; };
 		4BAB42262B572D640082A3F1 /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAB42252B572D640082A3F1 /* LongPressGestureBootcamp.swift */; };
+		4BAB42292B5737320082A3F1 /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAB42282B5737320082A3F1 /* MagnificationGestureBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4BAB42142B572AC50082A3F1 /* SwiftfulThinkingIntermediate-Level.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftfulThinkingIntermediate-Level.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BAB42172B572AC50082A3F1 /* SwiftfulThinkingIntermediate_LevelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingIntermediate_LevelApp.swift; sourceTree = "<group>"; };
-		4BAB42192B572AC50082A3F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4BAB421B2B572AC60082A3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BAB421E2B572AC60082A3F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4BAB42252B572D640082A3F1 /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
+		4BAB42282B5737320082A3F1 /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +54,9 @@
 			isa = PBXGroup;
 			children = (
 				4BAB42172B572AC50082A3F1 /* SwiftfulThinkingIntermediate_LevelApp.swift */,
-				4BAB42192B572AC50082A3F1 /* ContentView.swift */,
+				4BAB42272B5736C10082A3F1 /* UI */,
 				4BAB421B2B572AC60082A3F1 /* Assets.xcassets */,
 				4BAB421D2B572AC60082A3F1 /* Preview Content */,
-				4BAB42252B572D640082A3F1 /* LongPressGestureBootcamp.swift */,
 			);
 			path = "SwiftfulThinkingIntermediate-Level";
 			sourceTree = "<group>";
@@ -68,6 +67,15 @@
 				4BAB421E2B572AC60082A3F1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BAB42272B5736C10082A3F1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4BAB42252B572D640082A3F1 /* LongPressGestureBootcamp.swift */,
+				4BAB42282B5737320082A3F1 /* MagnificationGestureBootcamp.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BAB421A2B572AC50082A3F1 /* ContentView.swift in Sources */,
+				4BAB42292B5737320082A3F1 /* MagnificationGestureBootcamp.swift in Sources */,
 				4BAB42182B572AC50082A3F1 /* SwiftfulThinkingIntermediate_LevelApp.swift in Sources */,
 				4BAB42262B572D640082A3F1 /* LongPressGestureBootcamp.swift in Sources */,
 			);

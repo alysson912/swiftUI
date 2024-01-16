@@ -76,7 +76,12 @@ struct LongPressGestureBootcamp: View {
                         isSuccess = false
                     }
             }
-            
+            VStack {
+                Text("Hold on button!")
+                    
+                
+                    
+            }
         }
     }
 }
